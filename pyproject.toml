@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "servstat"
+version = "0.1.0"
+description = ""
+authors = ["bloomg <greig.bloom@ipsoft.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+click = "^8.1.7"
+pandas = "^2.2.0"
+beautifulsoup4 = "^4.12.3"
+setuptools = "^69.1.0"
+
+[tool.poetry.scripts]
+servstat = "servstat.cli:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
