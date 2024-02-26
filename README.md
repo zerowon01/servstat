@@ -3,7 +3,7 @@
 
 ### Getting started
 - brew install pipx (macOS)
-- scoop install pipx (Windows)
+- (scoop install pipx (Windows))
 - pipx ensurepath
 
 
