@@ -1,6 +1,5 @@
 ## Installation
-# Your Weather; right at the command line!!
-## A simple CLI tool to get the weather in your location.
+# Quickly show the status of various SaaS service at the CLI
 
 ### Getting started
 - brew install pipx (macOS)
