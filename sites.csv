@@ -1,0 +1,20 @@
+Service,URL,NormalStatus,Remarks
+DataRobot,https://status.datarobot.com/,All systems operational,none
+Github,https://www.githubstatus.com/,All systems operational,none
+Lucid chart,https://status.lucid.co/#,All systems operational,none
+Atlassian,https://status.atlassian.com/api/v2/status.json,All systems operational,none
+Treasure data,https://status.treasuredata.com/,All systems operational,none
+Stripe,https://www.stripestatus.com/api/v2/status.json,All systems operational,none
+Snowflake,https://status.snowflake.com/,All systems operational,none
+Slack,https://status.slack.com/,Slack is up and running,none
+NTT SDPF,https://sdpf.ntt.com/service-status/,正常稼働中,none
+O365,https://portal.office.com/ServiceStatus,Everything is up and running,none
+Zendesk,https://status.zendesk.com/,n/a,AJAX affecting ("no incidents with")
+Azure,https://azure.status.microsoft/en-us/status,n/a,more Ajax issues.
+Salesforce,https://status.salesforce.com/,n/a,none
+GCP,https://status.cloud.google.com/,n/a,none
+AWS,https://health.aws.amazon.com/health/status,none
+Twilio,https://status.twilio.com/,n/a,none
+Workday,N/a,,none
+Servicenow,N/a,none
+Databricks,N/a,none
