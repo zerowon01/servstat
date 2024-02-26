@@ -1,5 +1,5 @@
 ## Installation
-# Quickly show the status of various SaaS service at the CLI
+# Show the status of various SaaS service at the CLI
 
 ### Getting started
 - brew install pipx (macOS)
