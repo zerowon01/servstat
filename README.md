@@ -12,7 +12,7 @@
 - pipx install git+https://github.com/zerowon01/servstat.git
 - servstat --file /path/to/sites.csv
  
-:fireworks: Voila, your local temperature!
+:fireworks: Voila, your statuses from various SaaS services!
 
 ### Regarding input file
 - CSV
