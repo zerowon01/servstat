@@ -17,7 +17,7 @@
 ### Regarding input file
 - CSV
 - Service|URL|NormalStatus|Remarks
- * "Normal Status" refers to a string you expect to find in the status page.
+ * "Normal Status" refers to a string you expect to find in the status page indicating a "normal" status.
  
 :weary: Watch out . .
 Some sites load the DOM via AJAX so you can't scrape the status.
