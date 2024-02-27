@@ -7,7 +7,7 @@
 - pipx ensurepath
 
 
-### Install the weather cli app
+### Install the cli app
 - pipx install git+https://github.com/zerowon01/servstat.git
 - servstat --file /path/to/sites.csv
  
