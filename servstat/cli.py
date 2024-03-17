@@ -1,3 +1,4 @@
+import time
 import requests
 from requests.exceptions import MissingSchema
 import click
@@ -51,10 +52,11 @@ def print_status_page(site, show_failed_site=False):
 def cli(file, json_format: bool, export_csv:bool, show_failed_site:bool):
     print("Checking system status for various sites")
     df = pd.read_csv(file)  
+    start = time.time()
     for site in list(df.iterrows()):
 
         #Check for any nan columns for the site
-        if any(site[1].isna()):
+        if any(site[1].isna()) or site[1].startswith("#"):
             output = f"{site[1].Service}: "
             output = output.ljust(18) + click.style(" ▲", fg="yellow")
             click.echo(output)
@@ -62,6 +64,8 @@ def cli(file, json_format: bool, export_csv:bool, show_failed_site:bool):
 
         #TODO: Refactor to separate CHECK and PRINT (abstract into OUTPUT)
         print_status_page(site[1], show_failed_site)
+    click.echo("-------------------")
+    click.secho(f"Took: {time.time() - start: .2f} secs", color="grey")
 
 
 if __name__ == "__main__":
