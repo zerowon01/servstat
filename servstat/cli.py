@@ -56,7 +56,7 @@ def cli(file, json_format: bool, export_csv:bool, show_failed_site:bool):
     for site in list(df.iterrows()):
 
         #Check for any nan columns for the site
-        if any(site[1].isna()) or site[1].startswith("#"):
+        if any(site[1].isna()) or site[1].str.startswith("#"):
             output = f"{site[1].Service}: "
             output = output.ljust(18) + click.style(" ▲", fg="yellow")
             click.echo(output)
