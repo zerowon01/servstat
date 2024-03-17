@@ -1,12 +1,16 @@
-Service,URL,NormalStatus,Remarks
-DataRobot,https://status.datarobot.com/,All systems operational,string,none
+Service,URL,NormalStatus,Format,Remarks
+DataRobot,https://status.datarobot.com/,string,All systems operational,none
+OpenAI,https://status.openai.com,string,All systems operational,none
 Github,https://www.githubstatus.com/,All systems operational,string,none
+Zoom,https://status.zoom.us/api/v2/status.json,All Systems Operational,string,none
+Mailchimp,https://status.mailchimp.com/,All systems are Online,string,none
+Dropbox,https://status.dropbox.com/,All systems operational,string,none
 Lucid chart,https://status.lucid.co/#,All systems operational,string,none
-Gradio,https://status.gradio.app/api/getMonitorList/1NMJgf69WW,{"status":"ok"},json,none
 Atlassian,https://status.atlassian.com/api/v2/status.json,All systems operational,string,none
-Treasure data,https://status.treasuredata.com/,All systems operational,string,string,none
+Gradio,https://status.gradio.app/api/getMonitorList/1NMJgf69WW,{"status":"ok"},json,none
+Treasure data,https://status.treasuredata.com/,All systems operational,string,none
 Stripe,https://www.stripestatus.com/api/v2/status.json,All systems operational,string,none
-Snowflake,https://status.snowflake.com/,All systems operational,none
+Snowflake,https://status.snowflake.com/,All systems operational,string,none
 Slack,https://status.slack.com/,Slack is up and running,string,none
 NTT SDPF,https://sdpf.ntt.com/service-status/,正常稼働中,string,none
 O365,https://portal.office.com/ServiceStatus,Everything is up and running,string,none
